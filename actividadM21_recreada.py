@@ -10,13 +10,3 @@ def catch():
 
 catch()
 
-print('Funciones TRY, EXCEPT:')
-try:
-    # Intenta abrir el archivo
-    with open('test.txt', 'r') as file:
-        # Si el archivo existe, realiza alguna operación
-        print("El archivo 'test.txt' fue encontrado.")
-        # Aquí podrías realizar operaciones adicionales con el archivo, como leer su contenido
-except FileNotFoundError:
-    # Si el archivo no existe, maneja la excepción
-    print("El archivo 'test.txt' no fue encontrado en el directorio.")
